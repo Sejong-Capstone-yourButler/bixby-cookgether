@@ -1,0 +1,11 @@
+structure (DishOptions) {
+  description (Dish options)
+  property (dishOptionName) {
+    type (DishOptionName)
+    min (Required) max (One)
+  }
+  property (dishOptionExtra) {
+    type (DishOptionExtra)
+    min (Optional) max (One)
+  }
+}

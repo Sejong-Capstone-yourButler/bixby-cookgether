@@ -1,0 +1,11 @@
+structure (DishItems) {
+  description (주문한 음식 정보)
+  property (itemId) {
+    type (ItemId)
+    min (Required) max (One)
+  }
+  property (dish) {
+    type (Dish)
+    min (Required) max (One)
+  }
+}

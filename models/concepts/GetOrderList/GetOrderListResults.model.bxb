@@ -1,0 +1,11 @@
+structure (GetOrderListResults) {
+  description (__DESCRIPTION__)
+  property (ok) {
+    type (Ok)
+    min (Required) max (One)
+  }
+  property (orders){
+    type(Orders)
+    min(Optional) max(Many)
+  }
+}

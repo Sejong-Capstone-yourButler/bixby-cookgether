@@ -1,0 +1,11 @@
+action (GetOrderList) {
+  description (주문 내역을 가져온다.)
+  collect {
+    input (order) {
+      type (Order)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (GetOrderListResults)
+}

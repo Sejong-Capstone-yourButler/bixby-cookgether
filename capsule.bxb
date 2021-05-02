@@ -1,0 +1,21 @@
+capsule {
+  id (your_butler.cookgether)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US) {enabled (false)}
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-version (9)
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+
+  
+  store-sections{
+    section(FoodAndDrink)
+  }
+}

@@ -1,0 +1,3 @@
+integer (DishOptionExtra) {
+  description (dish option extra)
+}
