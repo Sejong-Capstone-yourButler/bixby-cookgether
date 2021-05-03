@@ -6,5 +6,9 @@ endpoints {
       accepted-inputs (email, password)
       local-endpoint (login.js)
     }
+    action-endpoint (GetOrders) {
+      // JS의 input parameter 값이다.
+      local-endpoint (getOrders.js)
+    }
   }
 }

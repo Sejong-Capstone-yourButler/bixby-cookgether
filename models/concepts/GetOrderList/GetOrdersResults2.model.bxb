@@ -1,0 +1,7 @@
+structure (GetOrdersResults2) {
+  description (주문 내역 배열 정보를 불러온다.)
+  property (getOrdersResult) {
+    type (GetOrdersResult)
+    min (Optional) max (Many)
+  }
+}

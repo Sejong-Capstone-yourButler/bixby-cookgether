@@ -1,4 +1,4 @@
-action (GetOrderList) {
+action (GetOrders) {
   description (주문 내역을 가져온다.)
   collect {
     input (order) {
@@ -7,5 +7,5 @@ action (GetOrderList) {
     }
   }
   type(Search)
-  output (GetOrderListResults)
+  output (GetOrdersResults2)
 }

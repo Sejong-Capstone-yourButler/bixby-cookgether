@@ -1,5 +1,5 @@
 structure (GetOrderListResults) {
-  description (__DESCRIPTION__)
+  description (주문 내역을 불러온다.)
   property (ok) {
     type (Ok)
     min (Required) max (One)
