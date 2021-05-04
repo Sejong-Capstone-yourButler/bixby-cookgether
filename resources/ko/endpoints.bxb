@@ -7,8 +7,11 @@ endpoints {
       local-endpoint (login.js)
     }
     action-endpoint (GetOrders) {
-      // JS의 input parameter 값이다.
       local-endpoint (getOrders.js)
+    }
+    action-endpoint (OrderInfo) {
+      accepted-inputs (getOrdersResults)
+      local-endpoint (orderInfo.js)
     }
   }
 }

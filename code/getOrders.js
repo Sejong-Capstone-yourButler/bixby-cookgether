@@ -8,7 +8,7 @@ module.exports.function = function getOrders () {
   };
 
   const loginParams = {
-    "email": "wjdghdwns0@gmail.com",
+    "email": "owner@gmail.com",
     "password": "12345"
   };
 
@@ -46,7 +46,7 @@ module.exports.function = function getOrders () {
   }  
 
   return {
-    GetOrdersResult:resultArray,
+    orderResults:resultArray,
     // ok: result.ok,
     // orderId: resultaArray.order.orderId,
     // createdAt: resultaArray.order.orderId,

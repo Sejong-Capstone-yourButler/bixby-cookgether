@@ -1,0 +1,11 @@
+action (OrderInfo) {
+  description (주문 정보)
+  collect {
+    input (getOrdersResults) {
+      type (GetOrdersResults)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (OrderResult)
+}

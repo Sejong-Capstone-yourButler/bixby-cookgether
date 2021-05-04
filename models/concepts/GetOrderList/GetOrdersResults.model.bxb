@@ -1,11 +1,7 @@
-structure (GetOrderListResults) {
-  description (주문 내역을 불러온다.)
-  property (ok) {
-    type (Ok)
-    min (Required) max (One)
-  }
-  property (orders){
-    type(Orders)
-    min(Optional) max(Many)
+structure (GetOrdersResults) {
+  description (주문 내역 배열 정보를 불러온다.)
+  property (orderResults) {
+    type (OrderResult)
+    min (Optional) max (Many)
   }
 }

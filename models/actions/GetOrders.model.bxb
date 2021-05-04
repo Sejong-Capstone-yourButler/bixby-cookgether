@@ -7,5 +7,5 @@ action (GetOrders) {
     }
   }
   type(Search)
-  output (GetOrdersResults2)
+  output (GetOrdersResults)
 }
