@@ -1,5 +1,5 @@
 train (t-3wz2626cbhzkf25k93fc250kz) {
-  utterance ("[g:GetOrdersResults] (주문)[v:Order] 내역 알려줘")
-  plan (Y2BmUK/MLy2KTyotyUkt0kvOz89OTy3JADLdU0v8i1JSi4qDUotLc0qKGRQIKWSQwaECLM3AxMAIxAxAkpEBBJggGAA=)
-  last-modified (1620089896535)
+  utterance ("[g:OrderResult] (주문)[v:Order] 내역 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1620118453041)
 }

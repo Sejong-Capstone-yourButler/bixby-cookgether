@@ -45,8 +45,7 @@ module.exports.function = function getOrders () {
     })
   }  
 
-  return {
-    orderResults:resultArray,
+  return resultArray;
     // ok: result.ok,
     // orderId: resultaArray.order.orderId,
     // createdAt: resultaArray.order.orderId,
@@ -54,5 +53,5 @@ module.exports.function = function getOrders () {
     // status: resultaArray.order.orderId,
     // customer: resultaArray.order.orderId,
     // dishitems: resultaArray.order.orderId,
-  };
+  
 }
