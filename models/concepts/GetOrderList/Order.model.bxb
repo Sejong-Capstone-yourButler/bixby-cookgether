@@ -1,3 +1,5 @@
-text (Order) {
+enum (Order) {
   description ("주문")
+  
+  symbol("주문")
 }
