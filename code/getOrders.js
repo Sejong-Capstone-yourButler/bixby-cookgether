@@ -27,16 +27,16 @@ module.exports.function = function getOrders () {
   
   let resultArray = [];
   if(getOrdersResult.ok){
-    let order={};
     getOrdersResult.orders.forEach(aOrder=>{
+      let order={};
       order.orderId = aOrder.id;
       order.createdAt = aOrder.createdAt;
       order.total = aOrder.total;
       order.status = aOrder.status;
       order.customer = aOrder.customer.email;
       order.dishItems=[];
-      let dishItem = {};
       aOrder.items.forEach(item=>{
+        let dishItem = {};
         dishItem.name = item.dish.name;
         dishItem.options = item.dish.options;
         order.dishItems.push(dishItem);

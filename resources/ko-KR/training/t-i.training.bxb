@@ -1,0 +1,5 @@
+train (t-ijoa44wps080ymawku5wi4uxp) {
+  utterance ("[g:OrderResult] (주문내역)[v:Order:주문] 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1620207606536)
+}
