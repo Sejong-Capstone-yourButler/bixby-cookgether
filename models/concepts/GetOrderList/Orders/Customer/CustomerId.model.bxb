@@ -1,3 +1,0 @@
-integer (CustomerId) {
-  description (Customer id)
-}

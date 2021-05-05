@@ -1,7 +1,0 @@
-structure (GetOrdersResults) {
-  description (주문 내역 배열 정보를 불러온다.)
-  property (orderResults) {
-    type (OrderResult)
-    min (Optional) max (Many)
-  }
-}

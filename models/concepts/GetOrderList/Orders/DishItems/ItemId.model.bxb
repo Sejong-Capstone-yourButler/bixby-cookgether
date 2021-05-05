@@ -1,3 +1,0 @@
-integer (ItemId) {
-  description (The item of the order)
-}

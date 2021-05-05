@@ -1,4 +1,4 @@
-structure (DishOptions) {
+structure (DishOption) {
   description (Dish options)
   property (dishOptionName) {
     type (DishOptionName)

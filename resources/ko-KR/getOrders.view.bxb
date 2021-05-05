@@ -5,65 +5,25 @@ result-view{
     template ("주문 내역")
   }
 
-  render{
-    list-of (this){
-      where-each(order){
-        compound-card{
-          content{
-            paragraph{
-              value{
-                template ("#{value(order.total)}")
+  render {
+    layout {
+      section {
+        content {
+          for-each (this){
+            as(order){
+              divider
+              layout-macro (OrderListSummary){
+                param(order){
+                  expression (order)
+                }
               }
+              divider     
             }
           }
         }
       }
     }
-
-    // 이 layout 부분 안 됨...
-    layout{
-      if(size(this) > 1){
-        section{
-          content{
-            for-each(this){
-              as(order){
-                layout-macro (OrderListSummary){
-                  param(orderResult){
-                    expression (order)
-                  }
-                }               
-              }
-            }
-          }  
-        }
-      }    
-    }
   }
-
-  // render{
-  //   list-of (this.orderResults){
-  //     where-each (order){
-  //       // layout-macro (OrderListSummary){
-  //       //   param ()
-  //       // }
-
-  //       compound-card{
-  //         content{
-  //           paragraph{
-  //             value:orderInfo {
-  //             // template ("#{value(order.orderId)}\n#{value(order.createdAt)}\n#{value(order.total)}\n#{value(order.status)}\n#{value(order.customer)}\n")
-  //             createdAt:$expr(order.createdAt)
-  //             total:$expr(order.total)
-  //             status:$expr(order.status)
-  //             customer:$expr(order.customer)
-  //             dishitems:$expr(order.dishitems)
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 
   conversation-drivers{
     conversation-driver{

@@ -20,8 +20,8 @@ structure (OrderResult) {
     description (Customer Email)
     type(Email)
   }
-  property (dishitems){
-    type(DishItems)
-    min(Optional) max(One)
+  property (dishItems){
+    type(DishItem)
+    min(Optional) max(Many)
   }
 }

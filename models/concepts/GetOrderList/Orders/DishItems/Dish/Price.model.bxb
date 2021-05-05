@@ -1,3 +1,0 @@
-integer (Price) {
-  description (Dish price)
-}

@@ -23,27 +23,29 @@ module.exports.function = function getOrders () {
   };
 
   const getOrdersResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/orders", getOrdersOptions);
-  console.log(getOrdersResult);
+  // console.log(getOrdersResult);
   
   let resultArray = [];
   if(getOrdersResult.ok){
-    let order={};
     getOrdersResult.orders.forEach(aOrder=>{
+      let order={};
       order.orderId = aOrder.id;
       order.createdAt = aOrder.createdAt;
       order.total = aOrder.total;
       order.status = aOrder.status;
       order.customer = aOrder.customer.email;
       order.dishItems=[];
-      let dishItem = {};
       aOrder.items.forEach(item=>{
-        dishItem.name = item.dish.name;
-        dishItem.options = item.dish.options;
+        let dishItem = {};
+        dishItem.dishName = item.dish.name;
+        dishItem.dishOptions = item.dish.options;
         order.dishItems.push(dishItem);
       })
       resultArray.push(order);
     })
-  }  
+  }
+
+  console.log(resultArray);
 
   return resultArray;
     // ok: result.ok,
