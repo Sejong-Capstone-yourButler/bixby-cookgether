@@ -1,0 +1,5 @@
+train (t-dtgfc3p9b3f3yzzbfb8l2h258) {
+  utterance ("[g:AcceptResult] (손님)[v:WaitingKeyword] 얼마나 더 받을 수 있는지 알려줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620307944907)
+}
