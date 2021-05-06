@@ -19,10 +19,13 @@ module.exports.function = function getOrders () {
     format: 'json',
     headers:{
       "x-jwt":token
+    },
+    query:{
+      status:"Pending"
     }
   };
 
-  const getOrdersResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/orders", getOrdersOptions);
+  const getOrdersResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/orders", getOrdersOptions);
   // console.log(getOrdersResult);
   
   let resultArray = [];
