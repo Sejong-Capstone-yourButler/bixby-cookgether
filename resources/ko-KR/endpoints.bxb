@@ -9,6 +9,8 @@ endpoints {
     action-endpoint (GetOrders) {
       local-endpoint (getOrders.js)
     }
-    
+    action-endpoint (GetStocks) {
+      local-endpoint (getStocks.js)
+    }
   }
 } 

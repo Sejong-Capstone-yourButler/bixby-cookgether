@@ -1,0 +1,28 @@
+layout-macro-def(StockListSummary) {
+  params {
+    param (stock) {
+      type (StockResult)
+      min (Optional)
+      max (One)
+    }
+  }
+ 
+  content {
+    compound-card{
+      content{
+        paragraph {
+          value ("품목 : #{value(stock.name)}")
+          style (Title_L)
+        }
+        paragraph {
+          value ("재고량 :  #{value(stock.count)}")
+          style (Detail_L)
+        }
+         paragraph {
+          value ("가격 : #{value(stock.total)}")
+          style (Detail_L)
+        }
+      }
+    }
+  }
+}
