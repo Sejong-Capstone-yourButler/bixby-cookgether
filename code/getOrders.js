@@ -26,8 +26,8 @@ module.exports.function = function getOrders () {
   };
 
   const getOrdersResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/orders", getOrdersOptions);
-  // console.log(getOrdersResult);
   
+  // GetOrders.model.bxb actrion의 output에 맞게 data 가공.
   let resultArray = [];
   if(getOrdersResult.ok){
     getOrdersResult.orders.forEach(aOrder=>{
@@ -41,22 +41,14 @@ module.exports.function = function getOrders () {
       aOrder.items.forEach(item=>{
         let dishItem = {};
         dishItem.dishName = item.dish.name;
-        dishItem.dishOptions = item.dish.options;
+        dishItem.dishOptions=[];
+        item.dish.options.forEach(dishOption=>{
+          dishItem.dishOptions.push(dishOption.name);
+        })
         order.dishItems.push(dishItem);
       })
       resultArray.push(order);
     })
   }
-
-  console.log(resultArray);
-
   return resultArray;
-    // ok: result.ok,
-    // orderId: resultaArray.order.orderId,
-    // createdAt: resultaArray.order.orderId,
-    // total: resultaArray.order.orderId,
-    // status: resultaArray.order.orderId,
-    // customer: resultaArray.order.orderId,
-    // dishitems: resultaArray.order.orderId,
-  
 }
