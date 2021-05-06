@@ -1,0 +1,5 @@
+train (t-0rvdzhhp5ailgr6hopku5y761) {
+  utterance ("[g:StockResult] (돈까스)[v:StockName] 얼마나 있는지 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1620281685426)
+}

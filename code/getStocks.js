@@ -1,4 +1,4 @@
-module.exports.function = function getStocks (StockName) {
+module.exports.function = function getStocks (stockname) {
   const console = require('console');
   const http = require('http');
 
@@ -22,20 +22,24 @@ module.exports.function = function getStocks (StockName) {
     }
   };
 
-  const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/stocks/1/", getStocksOptions);
+  const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getStocksOptions);
   console.log(getStocksResult);
   
   let resultArray = [];
-  // 요청한 품목명에 맞는 재고만 가져오기
   if(getStocksResult.ok){
     getStocksResult.stocks.forEach(aStock=>
     {
       let stock={};
-      //if (aStock.name == StockName) {
-        stock.name = aStock.name;
+      if (stockname == null)
+      {
+        stock.stockname = aStock.name;
         stock.count = aStock.count;
-        stock.total = aStock.total;
-      //}
+      }
+      else if (aStock.name == stockname)
+      {
+        stock.stockname = aStock.name;
+        stock.count = aStock.count;
+      }
       resultArray.push(stock);
     })
   }

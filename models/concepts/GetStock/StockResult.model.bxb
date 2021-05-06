@@ -6,6 +6,6 @@ structure (StockResult) {
   }
   property (count) {
     type (Count)
-    min (Optional)
+    min (Required)
   }
 }

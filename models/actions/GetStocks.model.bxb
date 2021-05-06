@@ -5,13 +5,13 @@ action (GetStocks) {
   // 재고 알려줘 -> 품목명이 들어오지 않으면 모든 품목 조회하려고 stock 이라는 모델을 통해 구현하려 했으나, 일단 상위 2개만 구현
   type(Search)
   collect {
+    input (stockname) {
+      type (StockName)
+      min (Optional) max (One)
+    }
     input (stock) {
       type (Stock)
       min (Optional) max (One)
-    }
-    input (stockname) {
-      type (StockName)
-      min (Required) max (One)
     }
   }
   output (StockResult)
