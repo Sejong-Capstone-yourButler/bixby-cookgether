@@ -33,7 +33,12 @@ module.exports.function = function getOrders () {
     getOrdersResult.orders.forEach(aOrder=>{
       let order={};
       order.orderId = aOrder.id;
-      order.createdAt = aOrder.createdAt;
+
+      const [year, todayZ] = aOrder.createdAt.split("T");
+      const [today,_] = todayZ.split(".");
+
+      order.createdAt = year + " / " + today;
+
       order.total = aOrder.total;
       order.status = aOrder.status;
       order.customer = aOrder.customer.email;
