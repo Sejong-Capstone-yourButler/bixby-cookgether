@@ -9,6 +9,9 @@ endpoints {
     action-endpoint (GetOrders) {
       local-endpoint (getOrders.js)
     }
-    
+    action-endpoint (GetStocks) {
+      accepted-inputs (stockname)
+      local-endpoint (getStocks.js)
+    }
   }
 } 
