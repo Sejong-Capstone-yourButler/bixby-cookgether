@@ -5,7 +5,7 @@ structure (DishItem) {
     min (Optional) max (One)
   }
   property (dishOptions) {
-    type (DishOption)
+    type (DishOptionName)
     min (Optional) max (Many)
   }
 }
