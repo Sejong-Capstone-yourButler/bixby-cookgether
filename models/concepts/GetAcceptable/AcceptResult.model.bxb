@@ -1,0 +1,19 @@
+structure (AcceptResult) {
+  description (추가 수용 가능인원 관리)
+  property (minimum) {
+    type (Minimum)
+    min (Required)
+  }
+  property(dishname) {
+    type(DishName)
+    min(Required)
+  }
+  property(stockname) {
+    type(StockName)
+    min(Required)
+  }
+  property(stockcount) {
+    type(Count)
+    min(Required)
+  }
+}

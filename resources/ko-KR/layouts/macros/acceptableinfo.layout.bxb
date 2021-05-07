@@ -1,0 +1,31 @@
+layout-macro-def(AcceptableListSummary) {
+  params {
+    param (result) {
+      type (AcceptResult)
+      min (Required)
+    }
+  }
+ 
+  content {
+    compound-card{
+      content{
+        paragraph {
+          value ("가능 인원 : #{value(result.minimum)}\n")
+          style (Title_L)
+        }
+        paragraph {
+          value ("최소 가능 요리 : #{value(result.dishname)}")
+          style (Detail_L)
+        }
+        paragraph {
+          value ("최소 재고 품목 : #{value(result.stockname)}")
+          style (Detail_L)
+        }
+        paragraph {
+          value ("재고량 :  #{value(result.stockcount)}")
+          style (Detail_L)
+        }
+      }
+    }
+  }
+}
