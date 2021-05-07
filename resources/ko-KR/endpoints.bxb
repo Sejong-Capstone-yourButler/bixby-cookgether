@@ -13,5 +13,8 @@ endpoints {
       accepted-inputs (stockname)
       local-endpoint (getStocks.js)
     }
+    action-endpoint (GetAcceptable) {
+      local-endpoint (getAcceptable.js)
+    }
   }
 } 
