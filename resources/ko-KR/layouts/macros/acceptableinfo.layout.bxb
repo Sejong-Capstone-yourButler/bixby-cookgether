@@ -7,25 +7,40 @@ layout-macro-def(AcceptableListSummary) {
   }
  
   content {
-    compound-card{
-      content{
-        paragraph {
-          value ("가능 인원 : #{value(result.minimum)}\n")
-          style (Title_L)
+        input-cell{
+          label{
+            template("수용 가능 인원")
+          }
+          value{
+            template("#{value(result.minimum)}\n")
+          }
+          
         }
-        paragraph {
-          value ("최소 가능 요리 : #{value(result.dishname)}")
-          style (Detail_L)
+        input-cell {
+          label{
+            template("최소 가능 요리")
+          }
+          value {
+            template("#{value(result.dishname)}")
+          }
+          
         }
-        paragraph {
-          value ("최소 재고 품목 : #{value(result.stockname)}")
-          style (Detail_L)
+        input-cell {
+          label{
+            template("최소 재고 품목")
+          }
+          value {
+            template("#{value(result.stockname)}")
+          }
+          
         }
-        paragraph {
-          value ("재고량 :  #{value(result.stockcount)}")
-          style (Detail_L)
+        input-cell{
+          label{
+            template("재고량")
+          }
+          value {
+            template("#{value(result.stockcount)}")
+          }
         }
       }
     }
-  }
-}

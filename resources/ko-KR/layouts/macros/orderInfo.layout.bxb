@@ -26,15 +26,7 @@ layout-macro-def(OrderListSummary) {
           }
         }
         paragraph {
-          value ("주문 시각 :  #{value(order.createdAt)}")
-          style (Detail_L)
-        }
-        paragraph {
-          value ("가격 : #{value(order.total)}")
-          style (Detail_L)
-        }
-        paragraph {
-          value ("상태 : #{value(order.status)}")
+          value ("주문 시각 :  #{value(order.createdAt)}\n가격 : #{value(order.total)}\n상태 : #{value(order.status)}")
           style (Detail_L)
         }
       }
