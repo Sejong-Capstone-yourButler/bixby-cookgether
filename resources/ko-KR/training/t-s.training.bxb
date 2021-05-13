@@ -1,0 +1,5 @@
+train (t-szfpjijmanluacxtn38y0fzlw) {
+  utterance ("[g:ChangeStockResult] (돈까스)[v:StockName] (2)[v:Count]개 (추가)[v:EditKeyword:추가]해줘")
+  plan (Y2Bl0KjMLy2KTyotyUkt0kvOz89OTy3JADKdMxLz0lODS/KTs4NSi0tzShiUCassZpDBpSi/NK+EQQmHrGtKZol3amV5flEKgwIONWAL/BJzUxlYGBgZmBiYgTQDkAWBMAASg8oBAA==)
+  last-modified (1620925219815)
+}

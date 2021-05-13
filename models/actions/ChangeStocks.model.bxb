@@ -1,0 +1,19 @@
+action (ChangeStocks) {
+  description (재고 변경)
+  type(Search)
+  collect {
+    input (stockname) {
+      type (StockName)
+      min (Required)
+    }
+    input (stockcount) {
+      type (Count)
+      min (Required)
+    }
+    input (edit) {
+      type (EditKeyword)
+      min (Required)
+    }
+  }
+  output (ChangeStockResult)
+}

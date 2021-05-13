@@ -1,0 +1,11 @@
+structure (ChangeStockResult) {
+  description (재고 변경 결과)
+  property(stockname) {
+    type(StockName)
+    min(Required)
+  }
+  property(stockcount) {
+    type(Count)
+    min(Required)
+  }
+}

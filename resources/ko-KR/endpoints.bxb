@@ -16,5 +16,9 @@ endpoints {
     action-endpoint (GetAcceptable) {
       local-endpoint (getAcceptable.js)
     }
+    action-endpoint (ChangeStocks) {
+      accepted-inputs (stockname, stockcount, edit)
+      local-endpoint (changeStocks.js)
+    }
   }
 } 
