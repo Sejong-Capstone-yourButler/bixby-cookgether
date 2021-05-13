@@ -1,0 +1,5 @@
+train (t-mdjgqkkdsznibz01nb9uq4l4c) {
+  utterance ("[g:StockResult] (돈까스)[v:StockName] 재고 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1620825552308)
+}

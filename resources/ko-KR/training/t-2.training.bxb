@@ -1,0 +1,10 @@
+train (t-2cxp9i5vmn535x7rq9bnvbcit) {
+  utterance ("[g:StockResult] (재고)[v:Stock] 알려주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1620825329255)
+}
+train (t-2lvfj9a3t4z0ij625ti5rvd9m) {
+  utterance ("[g:StockResult] (재고)[v:Stock] 얼만큼 있어?")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1620908361782)
+}

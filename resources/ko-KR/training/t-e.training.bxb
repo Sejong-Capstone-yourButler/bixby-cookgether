@@ -1,0 +1,10 @@
+train (t-e0czz6nzslsa1v5xtrwueprpo) {
+  utterance ("[g:AcceptResult] (최대 수용)[v:WaitingKeyword] 가능 인원  알려줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620826292309)
+}
+train (t-euredts01tmrl7mymquxg2mc6) {
+  utterance ("[g:StockResult] (재고)[v:Stock] 얼마나 있어?")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1620825584490)
+}
