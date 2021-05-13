@@ -1,0 +1,10 @@
+train (t-8pjq0fogaptspu4o2p5rpexc7) {
+  utterance ("[g:StockResult] (돈까스)[v:StockName] 잔량 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1620825664316)
+}
+train (t-8w4ngfll1qnqd3ccisl4j74ip) {
+  utterance ("[g:StockResult] (돈까스)[v:StockName] 남은 양 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1620825624472)
+}

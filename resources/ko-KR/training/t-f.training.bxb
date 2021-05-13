@@ -1,0 +1,5 @@
+train (t-ffclw1me3k3mrkrywb63ppktv) {
+  utterance ("[g:AcceptResult] (받을 수 있는)[v:WaitingKeyword] 인원 얼마나 돼?")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620908367246)
+}
