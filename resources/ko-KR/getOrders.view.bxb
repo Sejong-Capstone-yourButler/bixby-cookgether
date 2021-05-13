@@ -11,13 +11,13 @@ result-view{
         content {
           for-each (this){
             as(order){
-              divider
+              
               layout-macro (OrderListSummary){
                 param(order){
                   expression (order)
                 }
               }
-              divider     
+                 
             }
           }
         }
