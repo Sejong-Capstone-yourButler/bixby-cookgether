@@ -4,7 +4,7 @@ module.exports.function = function getOrders () {
 
   const loginOptions = {
     format: 'json',
-    passasjson:true
+    passAsJson:true
   };
 
   const loginParams = {

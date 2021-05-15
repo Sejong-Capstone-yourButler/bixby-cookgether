@@ -5,7 +5,7 @@ module.exports.function = function getAcceptable () {
 
   const loginOptions = {
     format: 'json',
-    passasjson:true
+    passAsJson:true
   };
 
   const loginParams = {
@@ -24,9 +24,6 @@ module.exports.function = function getAcceptable () {
   };
   const getDishesResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/dishes", getAcceptableOptions);
   const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getAcceptableOptions);
-  
-  //console.log(getDishesResult);
-  //console.log(getStocksResult);
 
     let resultArray = [];
     
@@ -81,8 +78,6 @@ module.exports.function = function getAcceptable () {
       }
     }
     resultArray.push(result);
-  
-  //console.log(resultArray);
 
   return resultArray;
 }
