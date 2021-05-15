@@ -1,4 +1,4 @@
-module.exports.function = function changeStocks (name, stockcount, edit) {
+module.exports.function = function editStocks (name, count, edit) {
   const console = require('console');
   const http = require('http');
 
@@ -25,7 +25,6 @@ module.exports.function = function changeStocks (name, stockcount, edit) {
   const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getStocksOptions);
   console.log(getStocksResult);
   
-  //let resultArray = []; // get stock
   let stock={};
   let stockId;
   if(getStocksResult.ok){
@@ -39,21 +38,20 @@ module.exports.function = function changeStocks (name, stockcount, edit) {
       }
     })
   }
-  console.log(stock.count, typeof stock.count);
-
+  console.log("stock.count", stock.count, "count", count);
   if (edit == "추가") {
-    stock.count += stockcount;
+    stock.count += count;
   }
 
   else if (edit == "제거") {
-    stock.count -= stockcount;
+    stock.count -= count;
   }
 
-  else if (edit == "수정") {
-    stock.count = stockcount;
+  else if (edit == "변경") {
+    stock.count = count;
   }
-  console.log(stock, typeof stock.count);
-
+  console.log(stock);
+  
   const editStockUrl = "https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks/" + stockId;
   const editStocksOptions = {
     format: 'json',
@@ -64,6 +62,9 @@ module.exports.function = function changeStocks (name, stockcount, edit) {
   };
   const changeStocksResult = http.postUrl(editStockUrl, stock, editStocksOptions);
   console.log(changeStocksResult);
+
+  getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getStocksOptions);
+  console.log(getStocksResult);
 
   return stock;
 }

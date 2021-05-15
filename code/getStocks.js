@@ -1,10 +1,10 @@
-module.exports.function = function getStocks (name) {
+module.exports.function = function getStocks (stockname) {
   const console = require('console');
   const http = require('http');
 
   const loginOptions = {
     format: 'json',
-    passasjson:true
+    passAsJson:true
   };
 
   const loginParams = {
@@ -30,14 +30,14 @@ module.exports.function = function getStocks (name) {
     getStocksResult.stocks.forEach(aStock=>
     {
       let stock={};
-      if (name == null)
+      if (stockname == null) // 품목명이 입력되지 않았을 때 -> 전체 재고 조회
       {
-        stock.name = aStock.name;
+        stock.stockname = aStock.name;
         stock.count = aStock.count;
       }
-      else if (aStock.name == name)
+      else if (aStock.name == stockname)
       {
-        stock.name = aStock.name;
+        stock.stockname = aStock.name;
         stock.count = aStock.count;
       }
       resultArray.push(stock);
@@ -47,12 +47,5 @@ module.exports.function = function getStocks (name) {
   console.log(resultArray);
 
   return resultArray;
-    // ok: result.ok,
-    // stockId: resultaArray.stock.stockId,
-    // createdAt: resultaArray.stock.stockId,
-    // total: resultaArray.stock.stockId,
-    // status: resultaArray.stock.stockId,
-    // customer: resultaArray.stock.stockId,
-    // dishitems: resultaArray.stock.stockId,
   
 }

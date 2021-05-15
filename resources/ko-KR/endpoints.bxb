@@ -10,15 +10,15 @@ endpoints {
       local-endpoint (getOrders.js)
     }
     action-endpoint (GetStocks) {
-      accepted-inputs (name)
+      accepted-inputs (stockname)
       local-endpoint (getStocks.js)
     }
     action-endpoint (GetAcceptable) {
       local-endpoint (getAcceptable.js)
     }
-    action-endpoint (ChangeStocks) {
-      accepted-inputs (name, stockcount, edit)
-      local-endpoint (changeStocks.js)
+    action-endpoint (EditStocks) {
+      accepted-inputs (name, count, edit)
+      local-endpoint (editStocks.js)
     }
   }
 } 

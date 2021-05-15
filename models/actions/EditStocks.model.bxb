@@ -1,4 +1,4 @@
-action (ChangeStocks) {
+action (EditStocks) {
   description (재고 변경)
   type(Search)
   collect {
@@ -15,5 +15,5 @@ action (ChangeStocks) {
       min (Required)
     }
   }
-  output (ChangeStockResult)
+  output (EditStockResult)
 }

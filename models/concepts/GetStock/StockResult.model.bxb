@@ -1,6 +1,6 @@
 structure (StockResult) {
   description (재고 조회 결과)
-  property (name) {
+  property (stockname) {
     type (StockName)
     min (Required)
   }
