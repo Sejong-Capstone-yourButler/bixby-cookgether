@@ -2,11 +2,11 @@ action (ChangeStocks) {
   description (재고 변경)
   type(Search)
   collect {
-    input (stockname) {
+    input (name) {
       type (StockName)
       min (Required)
     }
-    input (stockcount) {
+    input (count) {
       type (Count)
       min (Required)
     }

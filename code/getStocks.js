@@ -1,4 +1,4 @@
-module.exports.function = function getStocks (stockname) {
+module.exports.function = function getStocks (name) {
   const console = require('console');
   const http = require('http');
 
@@ -30,14 +30,14 @@ module.exports.function = function getStocks (stockname) {
     getStocksResult.stocks.forEach(aStock=>
     {
       let stock={};
-      if (stockname == null)
+      if (name == null)
       {
-        stock.stockname = aStock.name;
+        stock.name = aStock.name;
         stock.count = aStock.count;
       }
-      else if (aStock.name == stockname)
+      else if (aStock.name == name)
       {
-        stock.stockname = aStock.name;
+        stock.name = aStock.name;
         stock.count = aStock.count;
       }
       resultArray.push(stock);

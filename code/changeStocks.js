@@ -1,10 +1,10 @@
-module.exports.function = function changeStocks (stockname, stockcount, edit) {
+module.exports.function = function changeStocks (name, stockcount, edit) {
   const console = require('console');
   const http = require('http');
 
   const loginOptions = {
     format: 'json',
-    passasjson:true
+    passAsJson:true
   };
 
   const loginParams = {
@@ -27,17 +27,19 @@ module.exports.function = function changeStocks (stockname, stockcount, edit) {
   
   //let resultArray = []; // get stock
   let stock={};
+  let stockId;
   if(getStocksResult.ok){
     getStocksResult.stocks.forEach(aStock=>
     {
-      if (aStock.name == stockname)
+      if (aStock.name == name)
       {
-        stock.stockname = aStock.name;
-        stock.count = aStock.count;
-        stock.stockid = aStock.id;
+        stock.name = aStock.name;
+        stock.count = parseInt(aStock.count);
+        stockId = aStock.id;
       }
     })
   }
+  console.log(stock.count, typeof stock.count);
 
   if (edit == "추가") {
     stock.count += stockcount;
@@ -50,16 +52,17 @@ module.exports.function = function changeStocks (stockname, stockcount, edit) {
   else if (edit == "수정") {
     stock.count = stockcount;
   }
-  console.log(stock);
-  
-  const url = "https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks/" + stock.stockid;
-  const changeStocksOptions = {
+  console.log(stock, typeof stock.count);
+
+  const editStockUrl = "https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks/" + stockId;
+  const editStocksOptions = {
     format: 'json',
+    passAsJson:true,
     headers:{
       "x-jwt":token
     }
   };
-  const changeStocksResult = http.postUrl(url, stock, changeStocksOptions);
+  const changeStocksResult = http.postUrl(editStockUrl, stock, editStocksOptions);
   console.log(changeStocksResult);
 
   return stock;
