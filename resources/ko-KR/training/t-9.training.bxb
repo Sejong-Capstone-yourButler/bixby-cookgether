@@ -1,3 +1,8 @@
+train (t-9buuzwrj8zq0wjt0s2xvk9o78) {
+  utterance ("[g:EditStockResult] (돈까스)[v:StockName] (100)[v:Count]개로 (바꿔)[v:EditKeyword:변경]줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621078081614)
+}
 train (t-9xhuamynl4hk14r8ueugrigh2) {
   utterance ("[g:StockResult] (재고)[v:Stock] 얼만큼 남았어?")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
