@@ -1,3 +1,0 @@
-text (Token) {
-  description (login token value)
-}

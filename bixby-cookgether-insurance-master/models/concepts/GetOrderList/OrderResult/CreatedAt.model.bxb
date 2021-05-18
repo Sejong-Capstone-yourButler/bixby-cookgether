@@ -1,3 +1,0 @@
-text (CreatedAt) {
-  description (주문 시각)
-}

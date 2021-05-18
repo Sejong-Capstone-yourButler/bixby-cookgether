@@ -1,3 +1,0 @@
-integer (Minimum) {
-  description (대기인원관리에서 수용할 수 있는 최소인원)
-}

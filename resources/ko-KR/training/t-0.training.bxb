@@ -1,7 +1,12 @@
 train (t-01vdgoagjf6d9um2qalosq0pv) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 재고 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
-  last-modified (1620825581807)
+  last-modified (1621246134873)
+}
+train (t-0c17u2gqkgaao8qqh44d3kbx5) {
+  utterance ("[g:StockResult] (생선까스)[v:StockName] 얼마나 있어?")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1621245905705)
 }
 train (t-0rvdzhhp5ailgr6hopku5y761) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 얼마나 있는지 알려줘")

@@ -1,6 +1,0 @@
-enum (EditKeyword) {
-  description (변경 형태)
-  symbol(추가)
-  symbol(변경)
-  symbol(제거)
-}

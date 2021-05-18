@@ -1,7 +1,22 @@
+train (t-9bevb4580bofly5npauh4x7l1) {
+  utterance ("[g:StockResult] (냉동가라아게)[v:StockName] 얼마나 있어?")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1621246100295)
+}
 train (t-9buuzwrj8zq0wjt0s2xvk9o78) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (100)[v:Count]개로 (바꿔)[v:EditKeyword:변경]줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
-  last-modified (1621078081614)
+  last-modified (1621241132921)
+}
+train (t-9jxm177j7k114evc6okri7f2t) {
+  utterance ("[g:OrderResult] (주문 목록)[v:Order] 알려주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1621239672873)
+}
+train (t-9tx1uc13zcpt4c71fcxa3lc7x) {
+  utterance ("[g:EditStockResult] (등심 고기)[v:StockName] (100)[v:Count]개로 (변경)[v:EditKeyword:변경]해줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621243037281)
 }
 train (t-9xhuamynl4hk14r8ueugrigh2) {
   utterance ("[g:StockResult] (재고)[v:Stock] 얼만큼 남았어?")

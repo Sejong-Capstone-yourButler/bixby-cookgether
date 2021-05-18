@@ -1,3 +1,8 @@
+train (t-6ib7xidotn0ly6hoog76cb65c) {
+  utterance ("[g:StockResult] (생선까스)[v:StockName] 얼만큼 남았어?")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1621245926378)
+}
 train (t-6qj2hht2u2lpxxq28j69cwkwi) {
   utterance ("[g:AcceptResult] 받을 수 있는 (손님)[v:WaitingKeyword] 수 알려주세요")
   plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
