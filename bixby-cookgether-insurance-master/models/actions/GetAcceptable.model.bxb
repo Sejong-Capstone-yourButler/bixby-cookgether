@@ -1,0 +1,11 @@
+action (GetAcceptable) {
+  description (추가로 수용 가능한 인원 수)
+  type(Search)
+  collect {
+    input (waiting) {
+      type (WaitingKeyword)
+      min (Required) max (One)
+    }
+  }
+  output (AcceptResult)
+}

@@ -1,0 +1,11 @@
+structure (DishItem) {
+  description (주문한 음식 정보)
+  property (dishName) {
+    type (DishName)
+    min (Optional) max (One)
+  }
+  property (dishOptions) {
+    type (DishOptionName)
+    min (Optional) max (Many)
+  }
+}

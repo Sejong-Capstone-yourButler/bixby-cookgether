@@ -1,0 +1,10 @@
+train (t-i4aq8pfm09ulfh7mhh7d5okth) {
+  utterance ("[g:AcceptResult] (웨이팅)[v:WaitingKeyword] 기능 실행해줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620826185139)
+}
+train (t-io6ks41fjilz7os6u9bpraz1y) {
+  utterance ("[g:AcceptResult] 수용 가능한 (최대 인원)[v:WaitingKeyword] 알려주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620826415674)
+}

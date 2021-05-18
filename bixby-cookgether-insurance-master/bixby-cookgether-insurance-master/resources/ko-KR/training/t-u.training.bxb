@@ -1,0 +1,5 @@
+train (t-uyiyk2a45vod9klo2k92g5zdv) {
+  utterance ("[g:EditStockResult] (치킨까스)[v:StockName] (100)[v:Count]개로 (수정)[v:EditKeyword:변경]해줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621243246514)
+}

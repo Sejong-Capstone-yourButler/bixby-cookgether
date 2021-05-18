@@ -1,0 +1,34 @@
+layout-macro-def(StockListSummary) {
+  params {
+    param (stock) {
+      type (StockResult)
+      min (Required)
+    }
+  }
+ 
+  content {
+        split-input-cell {
+        left{ 
+          input-cell{
+            label{
+              template("품목")
+            }
+            value{
+              template("#{value(stock.stockname)}")
+            }
+          }
+        }
+        right{
+          input-cell{
+          label{
+            template("재고량")
+          }
+          value {
+            template("#{value(stock.count)}")
+          }
+        }
+      }
+    }
+         
+  }
+}

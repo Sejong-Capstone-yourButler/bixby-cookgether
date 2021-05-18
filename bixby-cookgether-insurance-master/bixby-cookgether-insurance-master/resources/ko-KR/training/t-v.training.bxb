@@ -1,0 +1,25 @@
+train (t-vd4utq5ynq4f3nu1malkb0vhr) {
+  utterance ("[g:EditStockResult] (생선까스)[v:StockName] (2)[v:Count]개 (늘려)[v:EditKeyword:추가]줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621240940879)
+}
+train (t-vecu5owsxv0pfrk9w0g7niy06) {
+  utterance ("[g:StockResult] (치킨까스)[v:StockName] 재고 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1621245984937)
+}
+train (t-vvbg24xi6yjtrowd117iw3z9r) {
+  utterance ("[g:EditStockResult] (냉동가라아게)[v:StockName] (3)[v:Count]개 (삭제)[v:EditKeyword:제거]해줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621245019034)
+}
+train (t-vvdk57sa52padc47ljq9jy5zi) {
+  utterance ("[g:EditStockResult] (돈까스)[v:StockName] (3)[v:Count]개 (제거)[v:EditKeyword:제거]")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621244535031)
+}
+train (t-vwh0kiyzeiecri0hhqg4imw1k) {
+  utterance ("[g:EditStockResult] (돈까스)[v:StockName] (100)[v:Count]개로 (변경)[v:EditKeyword:변경]")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621241419363)
+}

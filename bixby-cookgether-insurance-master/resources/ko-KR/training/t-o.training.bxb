@@ -1,0 +1,5 @@
+train (t-o9c7ogwlqvwuoumlnzc2jv9ko) {
+  utterance ("[g:AcceptResult] (추가 수용 가능 인원)[v:WaitingKeyword] 알려줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620826340939)
+}

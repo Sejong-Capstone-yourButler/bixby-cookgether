@@ -1,0 +1,3 @@
+integer (Count) {
+  description (재고 수량)
+}

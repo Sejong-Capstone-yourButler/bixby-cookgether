@@ -1,0 +1,15 @@
+train (t-lnww3hn58oip1gkfpi9fd9hya) {
+  utterance ("[g:EditStockResult] (등심 고기)[v:StockName] (3)[v:Count]개 (빼)[v:EditKeyword:제거]줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621244728243)
+}
+train (t-lpcugret2y6vmf3k2xfpakho6) {
+  utterance ("[g:StockResult] (재고)[v:Stock] 얼마나 남았어?")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1620825421694)
+}
+train (t-lphi2vvu4gnn2qptnofnqxhr5) {
+  utterance ("[g:StockResult] (생선까스)[v:StockName] 재고 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1621245893003)
+}

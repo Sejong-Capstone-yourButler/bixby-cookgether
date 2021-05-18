@@ -1,0 +1,46 @@
+layout-macro-def(AcceptableListSummary) {
+  params {
+    param (result) {
+      type (AcceptResult)
+      min (Required)
+    }
+  }
+ 
+  content {
+        input-cell{
+          label{
+            template("수용 가능 인원")
+          }
+          value{
+            template("#{value(result.minimum)}\n")
+          }
+          
+        }
+        input-cell {
+          label{
+            template("최소 가능 요리")
+          }
+          value {
+            template("#{value(result.dishname)}")
+          }
+          
+        }
+        input-cell {
+          label{
+            template("최소 재고 품목")
+          }
+          value {
+            template("#{value(result.stockname)}")
+          }
+          
+        }
+        input-cell{
+          label{
+            template("재고량")
+          }
+          value {
+            template("#{value(result.stockcount)}")
+          }
+        }
+      }
+    }

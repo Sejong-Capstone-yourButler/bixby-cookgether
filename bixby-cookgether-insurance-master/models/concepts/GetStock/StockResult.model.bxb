@@ -1,0 +1,11 @@
+structure (StockResult) {
+  description (재고 조회 결과)
+  property (stockname) {
+    type (StockName)
+    min (Required)
+  }
+  property (count) {
+    type (Count)
+    min (Required)
+  }
+}

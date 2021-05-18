@@ -1,0 +1,3 @@
+integer (OrderId) {
+  description (주문 ID 값)
+}

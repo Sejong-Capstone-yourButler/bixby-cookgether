@@ -1,0 +1,15 @@
+train (t-dc8xjcpbwg9lksymaq3w84856) {
+  utterance ("[g:AcceptResult] (대기 인원)[v:WaitingKeyword] 관리 실행해주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620826214685)
+}
+train (t-dnwwdqx5xz2j8m5g7y47bn77n) {
+  utterance ("[g:AcceptResult] (최대 수용)[v:WaitingKeyword] 가능 인원 알려주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620826388256)
+}
+train (t-dtgfc3p9b3f3yzzbfb8l2h258) {
+  utterance ("[g:AcceptResult] (손님)[v:WaitingKeyword] 얼마나 더 받을 수 있는지 알려줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1620825980081)
+}

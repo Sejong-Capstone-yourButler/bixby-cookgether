@@ -1,0 +1,5 @@
+train (t-2cxp9i5vmn535x7rq9bnvbcit) {
+  utterance ("[g:StockResult] (재고)[v:Stock] 알려주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1620825329255)
+}
