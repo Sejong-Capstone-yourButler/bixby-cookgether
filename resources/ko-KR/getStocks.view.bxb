@@ -2,7 +2,12 @@ result-view{
   match:StockResult(this)
 
   message{
-    template ("재고")
+    if(!exists(this)){
+      template-macro(Failed_Lookup)
+    }
+    else{
+      template-macro(StockResultDialog)
+    }
   }
 
   render {

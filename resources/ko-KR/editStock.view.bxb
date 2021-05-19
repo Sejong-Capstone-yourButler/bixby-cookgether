@@ -1,0 +1,48 @@
+result-view{
+  match:EditStockResult(this)
+
+  message{
+    if(!exists(this)){
+      template-macro(Failed_Lookup)
+    }
+    else{
+      template-macro(EditStockDialog){
+        param(edit){
+          expression(this)
+        }
+      }
+    }
+  }
+
+  render {
+    layout {
+      section {
+        content {
+        split-input-cell {
+        left{ 
+          input-cell{
+            label{
+              template("품목")
+            }
+            value{
+              template("#{value(this.name)}")
+            }
+          }
+        }
+        right{
+          input-cell{
+          label{
+            template("변경된 재고량")
+          }
+          value {
+            template("#{value(this.count)}")
+          }
+        }
+      }
+      }
+         
+      }
+    }
+    }
+  }
+}
