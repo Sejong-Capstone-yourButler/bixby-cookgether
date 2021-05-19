@@ -17,6 +17,7 @@ module.exports.function = function getOrders () {
 
   const getOrdersOptions = {
     format: 'json',
+    cacheTime : 0,
     headers:{
       "x-jwt":token
     },

@@ -18,6 +18,7 @@ module.exports.function = function getAcceptable () {
 
   const getAcceptableOptions = {
     format: 'json',
+    cacheTime : 0,
     headers:{
       "x-jwt":token
     }
@@ -41,7 +42,7 @@ module.exports.function = function getAcceptable () {
         dishArray.push(dresult)
       })
     }
-
+    //console.log(dishArray);
     let stockArray = [];
     if(getStocksResult.ok){
       getStocksResult.stocks.forEach(astock=>
@@ -53,7 +54,7 @@ module.exports.function = function getAcceptable () {
         stockArray.push(sresult)
       })
     }
-
+    //console.log(stockArray);
     let result = {};
     result.minimum = 999999;
 
@@ -75,6 +76,7 @@ module.exports.function = function getAcceptable () {
           result.stockname = minimums.name;
           result.stockcount = stockArray[j].count;
         }
+        //console.log("minimum", minimums, "result", result)
       }
     }
     resultArray.push(result);
