@@ -2,7 +2,12 @@ result-view{
   match:AcceptResult(this)
 
   message{
-    template ("웨이팅 관리")
+    if(!exists(this)){
+      template-macro(Failed_Lookup)
+    }
+    else{
+      template-macro(AcceptableResultDialog)
+    }
   }
 
   render {

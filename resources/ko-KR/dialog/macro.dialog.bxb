@@ -1,0 +1,40 @@
+template-macro-def(Failed_Lookup){
+  content{
+    template("해당 명령을 수행하지 못했어요. 다시 말씀해주실래요?")
+  }
+}//모든 Fail에 대해 알림 Dialog
+template-macro-def(OrderResultDialog){
+  content{
+    template("주문내역"){
+      speech("요청하신 주문내역 조회결과입니다.")
+    }
+  }
+}//기능1 주문내역조회에 대한 알림 Dialog
+template-macro-def(StockResultDialog){
+  content{
+    template("재고"){
+      speech("요청하신 재고 조회결과입니다.")
+    }
+  }
+}//기능2 재고 조회에 대한 알림 Dialog
+template-macro-def(AcceptableResultDialog){
+  content{
+    template("웨이팅 관리"){
+      speech("요청하신 수용가능 인원과 가능한 요리,최소 재고 조회결과입니다.")
+    }
+  }
+}//기능3 웨이팅 관리에 대한 알림 Dialog
+template-macro-def(EditStockDialog){
+  params{
+    param(edit){
+      type(EditStockResult)
+      min(Required)
+      max(Many)
+    }
+  }
+  content{
+    template("재고 변경 결과"){
+      speech("#{value(edit.name)}(을)를 #{value(edit.count)}(으)로 변경하였습니다.")
+    }
+  }
+}//기능2-2 재고 수정에 대한 알림 Dialog

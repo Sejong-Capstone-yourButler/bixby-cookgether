@@ -2,7 +2,12 @@ result-view{
   match:OrderResult(this)
 
   message{
-    template ("주문 내역")
+    if(!exists(this)){
+      template-macro(Failed_Lookup)
+    }
+    else{
+      template-macro(OrderResultDialog)
+    }
   }
 
   render {
