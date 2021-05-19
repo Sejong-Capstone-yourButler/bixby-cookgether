@@ -1,0 +1,5 @@
+train (t-qlnl1jx10s54ov2y3j51yyu5d) {
+  utterance ("[g:EditStockResult] (등심 고기)[v:StockName] (100)[v:Count]개로 (수정)[v:EditKeyword:변경]해줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621243065961)
+}

@@ -1,0 +1,10 @@
+train (t-rhipwkl697zj316zbvtfjmq8q) {
+  utterance ("[g:EditStockResult] (생선까스)[v:StockName] (2)[v:Count]개 (더해)[v:EditKeyword:추가]줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621240916122)
+}
+train (t-rw17j29g2f7ogrkrnm8wqhezp) {
+  utterance ("[g:StockResult] (치킨까스)[v:StockName] 얼마나 있는지 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1621245942627)
+}

@@ -1,3 +1,13 @@
+train (t-24n6kwj5vipwh7z3uqiw8vmub) {
+  utterance ("[g:EditStockResult] (냉동가라아게)[v:StockName] (3)[v:Count]개 (없애)[v:EditKeyword:제거]줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1621245072592)
+}
+train (t-2bcsap1rc0a1hizxm14ijkik5) {
+  utterance ("[g:StockResult] (치킨까스)[v:StockName] 남은 양 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1621245972372)
+}
 train (t-2cxp9i5vmn535x7rq9bnvbcit) {
   utterance ("[g:StockResult] (재고)[v:Stock] 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
@@ -7,4 +17,9 @@ train (t-2lvfj9a3t4z0ij625ti5rvd9m) {
   utterance ("[g:StockResult] (재고)[v:Stock] 얼만큼 있어?")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
   last-modified (1620908361782)
+}
+train (t-2zr4yx0803q4br9cfb05mhthu) {
+  utterance ("[g:StockResult] (재고 관리)[v:Stock] 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1621240115351)
 }
