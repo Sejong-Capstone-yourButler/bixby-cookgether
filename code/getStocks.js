@@ -17,13 +17,15 @@ module.exports.function = function getStocks (stockname) {
 
   const getStocksOptions = {
     format: 'json',
+    cacheTime : 0,
     headers:{
-      "x-jwt":token
+      "x-jwt":token,
     }
   };
 
   const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getStocksOptions);
-  console.log(getStocksResult);
+  
+  //console.log(getStocksResult);
   
   let resultArray = [];
   if(getStocksResult.ok){
@@ -44,7 +46,7 @@ module.exports.function = function getStocks (stockname) {
     })
   }
 
-  console.log(resultArray);
+  //console.log(resultArray);
 
   return resultArray;
   
