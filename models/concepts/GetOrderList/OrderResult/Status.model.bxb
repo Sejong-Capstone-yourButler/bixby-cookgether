@@ -1,3 +1,6 @@
-text (Status) {
+enum (Status) {
   description (주문 상태)
+  symbol (Pending)
+  symbol (Cooking)
+  symbol (All)
 }

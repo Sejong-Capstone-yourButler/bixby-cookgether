@@ -1,5 +1,5 @@
 structure (OrderResult) {
-  description (한 개의 주문 내역 정보다.)
+  description (주문 내역 정보)
   property (orderId){
     type(OrderId)
     min(Optional) max(One)

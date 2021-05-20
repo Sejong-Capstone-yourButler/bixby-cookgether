@@ -1,4 +1,4 @@
-module.exports.function = function getOrders () {
+module.exports.function = function getOrders (stat) {
   const console = require('console');
   const http = require('http');
 
@@ -14,47 +14,149 @@ module.exports.function = function getOrders () {
 
   const loginResult = http.postUrl("https://bixby-eats-backend.herokuapp.com/login", loginParams ,loginOptions);
   const token = loginResult.token;
-
-  const getOrdersOptions = {
+  let getOrdersOptions;
+  if (stat == null)
+  {
+    getOrdersOptions = {
     format: 'json',
-    cacheTime : 0,
+    cacheTime : 5,
     headers:{
       "x-jwt":token
-    },
+      },
     query:{
-      status:"Pending"
+      status: "Pending"
+      }
+    };
+
+    const getOrdersResultP = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/orders", getOrdersOptions);
+
+    getOrdersOptions = {
+    format: 'json',
+    cacheTime : 5,
+    headers:{
+      "x-jwt":token
+      },
+    query:{
+      status: "Cooking"
+      }
+    };
+
+    const getOrdersResultC = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/orders", getOrdersOptions);
+  }
+  else
+  {
+    if (stat == "All")
+    {
+      getOrdersOptions = {
+      format: 'json',
+      cacheTime : 5,
+      headers:{
+        "x-jwt":token
+        }
+      };
     }
-  };
+    else
+    {
+      getOrdersOptions = {
+      format: 'json',
+      cacheTime : 5,
+      headers:{
+        "x-jwt":token
+        },
+      query:{
+        status: stat
+        }
+      };
+    }
+    const getOrdersResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/orders", getOrdersOptions);
+    console.log (getOrdersResult);
+  }
 
-  const getOrdersResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/orders", getOrdersOptions);
-  
-  // GetOrders.model.bxb actrion의 output에 맞게 data 가공.
   let resultArray = [];
-  if(getOrdersResult.ok){
-    getOrdersResult.orders.forEach(aOrder=>{
-      let order={};
-      order.orderId = aOrder.id;
 
-      const [year, todayZ] = aOrder.createdAt.split("T");
-      const [today,_] = todayZ.split(".");
+  if (stat == null)
+  {
+    if(getOrdersResultP.ok){
+      getOrdersResultP.orders.forEach(aOrder=>{
+        let order={};
+        order.orderId = aOrder.id;
 
-      order.createdAt = year + " / " + today;
+        const [year, todayZ] = aOrder.createdAt.split("T");
+        const [today,_] = todayZ.split(".");
 
-      order.total = aOrder.total;
-      order.status = aOrder.status;
-      order.customer = aOrder.customer.email;
-      order.dishItems=[];
-      aOrder.items.forEach(item=>{
-        let dishItem = {};
-        dishItem.dishName = item.dish.name;
-        dishItem.dishOptions=[];
-        item.dish.options.forEach(dishOption=>{
-          dishItem.dishOptions.push(dishOption.name);
+        order.createdAt = year + " / " + today;
+
+        order.total = aOrder.total;
+        order.status = aOrder.status;
+        order.customer = aOrder.customer.email;
+        order.dishItems=[];
+        aOrder.items.forEach(item=>{
+          let dishItem = {};
+          dishItem.dishName = item.dish.name;
+          dishItem.dishOptions=[];
+          item.dish.options.forEach(dishOption=>{
+            dishItem.dishOptions.push(dishOption.name);
+          })
+          order.dishItems.push(dishItem);
         })
-        order.dishItems.push(dishItem);
+        resultArray.push(order);
       })
-      resultArray.push(order);
-    })
+    }
+
+    if(getOrdersResultC.ok){
+      getOrdersResultC.orders.forEach(aOrder=>{
+        let order={};
+        order.orderId = aOrder.id;
+
+        const [year, todayZ] = aOrder.createdAt.split("T");
+        const [today,_] = todayZ.split(".");
+
+        order.createdAt = year + " / " + today;
+
+        order.total = aOrder.total;
+        order.status = aOrder.status;
+        order.customer = aOrder.customer.email;
+        order.dishItems=[];
+        aOrder.items.forEach(item=>{
+          let dishItem = {};
+          dishItem.dishName = item.dish.name;
+          dishItem.dishOptions=[];
+          item.dish.options.forEach(dishOption=>{
+            dishItem.dishOptions.push(dishOption.name);
+          })
+          order.dishItems.push(dishItem);
+        })
+        resultArray.push(order);
+      })
+    }
+  }
+  else{
+    if(getOrdersResult.ok){
+      getOrdersResult.orders.forEach(aOrder=>{
+        let order={};
+        order.orderId = aOrder.id;
+
+        const [year, todayZ] = aOrder.createdAt.split("T");
+        const [today,_] = todayZ.split(".");
+
+        order.createdAt = year + " / " + today;
+
+        order.total = aOrder.total;
+        order.status = aOrder.status;
+        order.customer = aOrder.customer.email;
+        order.dishItems=[];
+        aOrder.items.forEach(item=>{
+          let dishItem = {};
+          dishItem.dishName = item.dish.name;
+          dishItem.dishOptions=[];
+          item.dish.options.forEach(dishOption=>{
+            dishItem.dishOptions.push(dishOption.name);
+          })
+          order.dishItems.push(dishItem);
+        })
+        resultArray.push(order);
+      })
+    }
   }
   return resultArray;
 }

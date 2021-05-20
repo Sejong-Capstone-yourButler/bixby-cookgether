@@ -3,3 +3,8 @@ train (t-b927topcr5cbbgiue67k1wyl3) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1621240012822)
 }
+train (t-bqvawkqrflnrh6bfue69s6jc3) {
+  utterance ("[g:OrderResult] (진행중)[v:Status:Cooking]인 (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1621527368728)
+}

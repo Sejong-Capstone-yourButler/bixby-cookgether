@@ -24,7 +24,6 @@ module.exports.function = function editStocks (name, count, edit) {
   };
 
   const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getStocksOptions);
-  //console.log(getStocksResult);
   
   let stock={};
   let stockId;
@@ -39,7 +38,6 @@ module.exports.function = function editStocks (name, count, edit) {
       }
     })
   }
-  //console.log("stock.count", stock.count, "count", count);
   if (edit == "추가") {
     stock.count += count;
   }
@@ -51,7 +49,6 @@ module.exports.function = function editStocks (name, count, edit) {
   else if (edit == "변경") {
     stock.count = count;
   }
-  //console.log(stock);
   
   const editStockUrl = "https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks/" + stockId;
   const editStocksOptions = {
@@ -63,10 +60,6 @@ module.exports.function = function editStocks (name, count, edit) {
     }
   };
   const changeStocksResult = http.postUrl(editStockUrl, stock, editStocksOptions);
-  //console.log(changeStocksResult);
-
-  getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getStocksOptions);
-  //console.log(getStocksResult);
 
   return stock;
 }

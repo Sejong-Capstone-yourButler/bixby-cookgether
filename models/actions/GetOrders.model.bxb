@@ -5,6 +5,10 @@ action (GetOrders) {
       type (Order)
       min (Required) max (One)
     }
+    input (stat) {
+      type (Status)
+      min (Optional)
+    }
   }
   type(Search)
   output (OrderResult)
