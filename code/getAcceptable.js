@@ -25,9 +25,8 @@ module.exports.function = function getAcceptable () {
   };
   const getDishesResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/dishes", getAcceptableOptions);
   const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getAcceptableOptions);
-
+  
     let resultArray = [];
-    
     let dishArray = [];
     if(getDishesResult.ok){
       getDishesResult.dishes.forEach(adish=>
@@ -42,7 +41,6 @@ module.exports.function = function getAcceptable () {
         dishArray.push(dresult)
       })
     }
-    //console.log(dishArray);
     let stockArray = [];
     if(getStocksResult.ok){
       getStocksResult.stocks.forEach(astock=>
@@ -54,7 +52,6 @@ module.exports.function = function getAcceptable () {
         stockArray.push(sresult)
       })
     }
-    //console.log(stockArray);
     let result = {};
     result.minimum = 999999;
 
@@ -76,7 +73,6 @@ module.exports.function = function getAcceptable () {
           result.stockname = minimums.name;
           result.stockcount = stockArray[j].count;
         }
-        //console.log("minimum", minimums, "result", result)
       }
     }
     resultArray.push(result);

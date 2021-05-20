@@ -25,8 +25,6 @@ module.exports.function = function getStocks (stockname) {
 
   const getStocksResult = http.getUrl("https://bixby-eats-backend.herokuapp.com/restaurants/1/stocks", getStocksOptions);
   
-  //console.log(getStocksResult);
-  
   let resultArray = [];
   if(getStocksResult.ok){
     getStocksResult.stocks.forEach(aStock=>
@@ -45,8 +43,6 @@ module.exports.function = function getStocks (stockname) {
       resultArray.push(stock);
     })
   }
-
-  //console.log(resultArray);
 
   return resultArray;
   
