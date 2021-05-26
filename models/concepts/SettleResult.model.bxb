@@ -1,0 +1,11 @@
+structure (SettleResult) {
+  description (정산 결과)
+  property (amount) {
+    type (Amount)
+    min (Optional)
+  }
+  property (weburi) {
+    type (WebUri)
+    min (Optional) max (One)
+  }
+}

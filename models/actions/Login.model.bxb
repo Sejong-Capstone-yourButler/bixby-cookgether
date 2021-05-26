@@ -1,5 +1,5 @@
 action (Login) {
-  description (더하기를 하는 액션)
+  description (로그인 하는 액션)
   collect {
     // Input Name은 Business logic에 전달해주는 input parameter이면서
     // Email의 별명이 된다.

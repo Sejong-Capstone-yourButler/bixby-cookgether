@@ -21,5 +21,9 @@ endpoints {
       accepted-inputs (name, count, edit)
       local-endpoint (editStocks.js)
     }
+    action-endpoint (GetSettle) {
+      accepted-inputs ()
+      local-endpoint (getSettle.js)
+    }
   }
 } 
