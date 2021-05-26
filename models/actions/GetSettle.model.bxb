@@ -1,0 +1,10 @@
+action (GetSettle) {
+  description (정산페이지로 넘겨준다.)
+  collect {
+    input (settle) {
+      type (Settle)
+      min (Required) max (One)
+    }
+  }
+  output (SettleResult)
+}

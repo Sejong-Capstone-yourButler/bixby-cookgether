@@ -3,6 +3,11 @@ train (t-01vdgoagjf6d9um2qalosq0pv) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1621246134873)
 }
+train (t-05yfb2e3zggxvwrcq4412xr2n) {
+  utterance ("[g:SettleResult] (정산)[v:Settle]")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622041155795)
+}
 train (t-0c17u2gqkgaao8qqh44d3kbx5) {
   utterance ("[g:StockResult] (생선까스)[v:StockName] 얼마나 있어?")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
