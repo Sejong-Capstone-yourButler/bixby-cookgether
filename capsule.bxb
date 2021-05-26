@@ -4,7 +4,7 @@ capsule {
   format (3)
   targets {
     // target (bixby-mobile-en-US) {enabled (false)}
-    target (bixby-mobile-ko-KR)
+    target (bixby-mobile-ko-KR) // Korean(South Korea)
   }
   runtime-version (9)
   store-countries {
