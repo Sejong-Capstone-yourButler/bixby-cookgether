@@ -1,7 +1,17 @@
+train (t-201jym2e6h4f52pkbhsquy3zf) {
+  utterance ("[g:SettleResult] (매출)[v:Settle] 보여줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109801885)
+}
 train (t-24n6kwj5vipwh7z3uqiw8vmub) {
   utterance ("[g:EditStockResult] (냉동가라아게)[v:StockName] (3)[v:Count]개 (없애)[v:EditKeyword:제거]줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621245072592)
+}
+train (t-29jol4bxu2890byn868fc2y1b) {
+  utterance ("[g:SettleResult] (정산)[v:Settle] 기능 실행해줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109617442)
 }
 train (t-2bcsap1rc0a1hizxm14ijkik5) {
   utterance ("[g:StockResult] (치킨까스)[v:StockName] 남은 양 알려줘")

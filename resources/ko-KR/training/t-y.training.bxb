@@ -1,0 +1,25 @@
+train (t-y0ikw6jdetz0n17lfpgssvzcp) {
+  utterance ("[g:SettleResult] (판매량)[v:Settle] 보여주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622110043617)
+}
+train (t-yfvv93jpudbg97iaz7v8v5j87) {
+  utterance ("[g:OrderResult] (요리 중)[v:Status:Cooking]인 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108305051)
+}
+train (t-yntb3vghepaiiejep4td17tu1) {
+  utterance ("[g:SettleResult] (정산)[v:Settle] 실행해줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109644906)
+}
+train (t-yqy2mc3a4763724x6ymg3n8su) {
+  utterance ("[g:SettleResult] (매출)[v:Settle] 보여주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109885135)
+}
+train (t-yymo7te6mgu418igi5xk6wgyn) {
+  utterance ("[g:OrderResult] (주문 상황)[v:Order] (전부)[v:Status:All] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108604117)
+}

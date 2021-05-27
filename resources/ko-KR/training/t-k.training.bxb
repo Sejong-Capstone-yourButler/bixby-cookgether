@@ -1,3 +1,8 @@
+train (t-k8j8dxzp7yjo6ez4u2ss4fqmd) {
+  utterance ("[g:OrderResult] (접수 중)[v:Status:Pending]인 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622107268653)
+}
 train (t-kczg2z2ujkdrl8xclq8oko9x4) {
   utterance ("[g:OrderResult] (주문 사항)[v:Order] 알려줘")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)

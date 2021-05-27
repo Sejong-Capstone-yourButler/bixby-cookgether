@@ -3,6 +3,11 @@ train (t-42ghel6armi04j9hsiyf5do87) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1620908355765)
 }
+train (t-42z1m2qwvwci4m3giiipblrr3) {
+  utterance ("[g:OrderResult] (대기중)[v:Status:Pending]인 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622106837728)
+}
 train (t-43eiqmpojuxbreel1ccg5wdjs) {
   utterance ("[g:OrderResult] (주문 내용)[v:Order] 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
@@ -22,4 +27,9 @@ train (t-4igwzs2lmfz7zahjc1zep9qu2) {
   utterance ("[g:EditStockResult] (치킨까스)[v:StockName] (2)[v:Count]개 (추가)[v:EditKeyword:추가]해줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621240974928)
+}
+train (t-4vhkxuykgnfx0pl9s0afodue9) {
+  utterance ("[g:SettleResult] (판매량)[v:Settle] 보여줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622110033407)
 }

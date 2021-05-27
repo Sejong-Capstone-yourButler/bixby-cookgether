@@ -1,5 +1,25 @@
+train (t-x939j4yfyzazlklgy4ftzvoy8) {
+  utterance ("[g:SettleResult] (정산)[v:Settle]하자")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109999258)
+}
+train (t-xay2pptdt00hwzbkdfx870mh4) {
+  utterance ("[g:SettleResult] (판매량)[v:Settle] 알려주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622110065816)
+}
+train (t-xl50vfzkdmrdqwqg3euq9fijk) {
+  utterance ("[g:SettleResult] (정산)[v:Settle] 실행해주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109664706)
+}
 train (t-xndv9llc9mck3wk2nziiwvkxq) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 잔량 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1621240158638)
+}
+train (t-xxcndsmeylb3bj6shkx9y3ckt) {
+  utterance ("[g:OrderResult] (주문 내역)[v:Order] (전부)[v:Status:All] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108585474)
 }

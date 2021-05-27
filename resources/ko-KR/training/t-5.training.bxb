@@ -18,6 +18,11 @@ train (t-597m8yjojwouwgox2njsbi9an) {
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621240775533)
 }
+train (t-5hx1wxr4dx6v2u0plbzs4at0h) {
+  utterance ("[g:OrderResult] (진행중)[v:Status:Cooking]인 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622107437513)
+}
 train (t-5kv8hkttlhj5mgwsq8z236gi7) {
   utterance ("[g:EditStockResult] (치킨까스)[v:StockName] (2)[v:Count]개 (생성)[v:EditKeyword:추가]해줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
@@ -27,4 +32,14 @@ train (t-5ln8s29snhgho4ewzrg1q38mv) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (3)[v:Count]개 (삭제)[v:EditKeyword:제거]해주세요")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621244456680)
+}
+train (t-5skczv7dvb7epeh51jfcqiku5) {
+  utterance ("[g:SettleResult] 오늘 얼마 (팔았어)[v:Settle]요?")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109986593)
+}
+train (t-5soeu12eikrf87ws7jy1b5mor) {
+  utterance ("[g:SettleResult] 오늘 (판매)[v:Settle]한 거 알려줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622110087446)
 }

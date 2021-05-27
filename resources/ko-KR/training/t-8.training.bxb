@@ -8,6 +8,11 @@ train (t-8pjq0fogaptspu4o2p5rpexc7) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1620825664316)
 }
+train (t-8rghqw0qtkfda2l0rzdhc2xr0) {
+  utterance ("[g:OrderResult] (Pending)[v:Status:Pending] 상태 (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622106811805)
+}
 train (t-8w4ngfll1qnqd3ccisl4j74ip) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 남은 양 알려줘")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)

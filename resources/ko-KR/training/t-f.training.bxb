@@ -3,6 +3,11 @@ train (t-f09zfnzho4gd40ojgv816vtnh) {
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621243151633)
 }
+train (t-f93t7psu3risnn3zxcfs6pj3u) {
+  utterance ("[g:OrderResult] (모든)[v:Status:All] (주문 상황)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108672114)
+}
 train (t-fbb48qbzer44hjqv7mr4l97x9) {
   utterance ("[g:EditStockResult] (생선까스)[v:StockName] (3)[v:Count]개 (빼)[v:EditKeyword:제거]줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
@@ -13,8 +18,28 @@ train (t-ffclw1me3k3mrkrywb63ppktv) {
   plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
   last-modified (1620908367246)
 }
+train (t-ffhzmiog87lfhlojdqqg7gjnc) {
+  utterance ("[g:OrderResult] (아직 안받은)[v:Status:Pending] (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622106746257)
+}
+train (t-fn3ygteeknna0o6oqbamvj136) {
+  utterance ("[g:OrderResult] (새로 들어온)[v:Status:Pending] (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622107046240)
+}
+train (t-fp1yyyat7gmbh4q3cbtnev9wl) {
+  utterance ("[g:OrderResult] (조리중)[v:Status:Cooking]인 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108167211)
+}
 train (t-fuy9mbfrsxh5co580hlbelwee) {
   utterance ("[g:OrderResult] (주문 내역)[v:Order] 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
   last-modified (1621239622509)
+}
+train (t-fyvj3j3wfw8hw5161ftksi2t9) {
+  utterance ("[g:SettleResult] 오늘 얼마 (팔았어)[v:Settle]?")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109975158)
 }
