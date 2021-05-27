@@ -13,3 +13,8 @@ train (t-lphi2vvu4gnn2qptnofnqxhr5) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1621245893003)
 }
+train (t-lvktck3tlf5k54fi26j0j5qxi) {
+  utterance ("[g:SettleResult] 오늘 (매출)[v:Settle] 얼마야?")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109860659)
+}

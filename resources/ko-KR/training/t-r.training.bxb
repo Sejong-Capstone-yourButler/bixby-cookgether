@@ -1,7 +1,27 @@
+train (t-r1c1woddjf0pcbmy1ityh0ptk) {
+  utterance ("[g:OrderResult] (주문)[v:Order] (전부)[v:Status:All] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108511046)
+}
+train (t-r214dhudtvojbn0gfm2dsvad2) {
+  utterance ("[g:OrderResult] (모든)[v:Status:All] (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108633187)
+}
+train (t-r3n6bwetr9v8h2lduw3enmi5l) {
+  utterance ("[g:OrderResult] (진행 중)[v:Status:Cooking]인 (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108423599)
+}
 train (t-rhipwkl697zj316zbvtfjmq8q) {
   utterance ("[g:EditStockResult] (생선까스)[v:StockName] (2)[v:Count]개 (더해)[v:EditKeyword:추가]줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621240916122)
+}
+train (t-rtm47nqukdsfkqqtk2q794dw1) {
+  utterance ("[g:OrderResult] (조리 중)[v:Status:Cooking]인 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108209323)
 }
 train (t-rw17j29g2f7ogrkrnm8wqhezp) {
   utterance ("[g:StockResult] (치킨까스)[v:StockName] 얼마나 있는지 알려줘")

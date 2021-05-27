@@ -8,6 +8,11 @@ train (t-7rye31uvkygdywqv9gvdnwk4y) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1620908359301)
 }
+train (t-7uj2v7gmwyky3n7582rvcin09) {
+  utterance ("[g:SettleResult] (정산)[v:Settle]합시다")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622110009024)
+}
 train (t-7vify33f4p8ksyj7d5lc06z72) {
   utterance ("[g:StockResult] (생선까스)[v:StockName] 남은 양 알려줘")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)

@@ -1,3 +1,8 @@
+train (t-b68sjtz7t1ib8xojwhr2bvtim) {
+  utterance ("[g:SettleResult] 오늘 (매출)[v:Settle] 얼마예요?")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109905014)
+}
 train (t-b927topcr5cbbgiue67k1wyl3) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 여분 알려줘")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
@@ -7,4 +12,14 @@ train (t-bqvawkqrflnrh6bfue69s6jc3) {
   utterance ("[g:OrderResult] (진행중)[v:Status:Cooking]인 (주문)[v:Order] 알려줘")
   plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
   last-modified (1621527368728)
+}
+train (t-btb9aljw05ynnm2dha17iftrb) {
+  utterance ("[g:OrderResult] (Cooking)[v:Status:Cooking] 상태 (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108124089)
+}
+train (t-by8zq59yzp949cqbh28jokvkk) {
+  utterance ("[g:OrderResult] (수락 안한)[v:Status:Pending] (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622106723539)
 }

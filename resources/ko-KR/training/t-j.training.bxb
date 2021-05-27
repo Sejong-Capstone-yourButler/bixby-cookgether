@@ -8,8 +8,38 @@ train (t-jb1gvgfplwaj2q54bcor8p68s) {
   plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
   last-modified (1620826337531)
 }
+train (t-jcvw1fzapfuwfavmwx4xsuep4) {
+  utterance ("[g:OrderResult] (수락 안한)[v:Status:Pending] (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622107065798)
+}
+train (t-jk8dbratove1bkbf3i7nnnj4u) {
+  utterance ("[g:OrderResult] (진행중)[v:Status:Cooking]인 (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108408063)
+}
 train (t-jma3dqdqi3qu7r9b8d2m5k7qw) {
   utterance ("[g:AcceptResult] 수용 가능한 (최대 인원)[v:WaitingKeyword] 알려줘")
   plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
   last-modified (1620826323363)
+}
+train (t-jp9vpzqwqhqblnztud3xe77qp) {
+  utterance ("[g:OrderResult] (주문 내역)[v:Order] (전부)[v:Status:All] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108530581)
+}
+train (t-jsugj7ojhnd3sihdv8jjb66jh) {
+  utterance ("[g:OrderResult] (수락 안 한)[v:Status:Pending] (주문)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108852385)
+}
+train (t-jw2sy4y21xmzcafjwkitwf8zk) {
+  utterance ("[g:OrderResult] (Pending)[v:Status:Pending] 상태 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622107129130)
+}
+train (t-jw9ek6vtkzz82pycax58dc8ru) {
+  utterance ("[g:OrderResult] (Cooking)[v:Status:Cooking] 상태 (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622108146976)
 }

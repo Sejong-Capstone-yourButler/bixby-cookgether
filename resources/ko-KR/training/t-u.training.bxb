@@ -1,3 +1,8 @@
+train (t-u1udccl4pa6w8jkxlrwn322ww) {
+  utterance ("[g:SettleResult] (정산)[v:Settle] 기능 실행해주세요")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622109683043)
+}
 train (t-uyiyk2a45vod9klo2k92g5zdv) {
   utterance ("[g:EditStockResult] (치킨까스)[v:StockName] (100)[v:Count]개로 (수정)[v:EditKeyword:변경]해줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)

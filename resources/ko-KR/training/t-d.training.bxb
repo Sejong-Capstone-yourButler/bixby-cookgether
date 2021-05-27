@@ -1,3 +1,8 @@
+train (t-d9lkebbo6u0lf4vtxm54ogsad) {
+  utterance ("[g:OrderResult] (아직 안받은)[v:Status:Pending] (주문)[v:Order] 알려주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622107107629)
+}
 train (t-dc8xjcpbwg9lksymaq3w84856) {
   utterance ("[g:AcceptResult] (대기 인원)[v:WaitingKeyword] 관리 실행해주세요")
   plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
