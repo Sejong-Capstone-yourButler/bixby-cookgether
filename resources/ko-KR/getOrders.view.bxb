@@ -3,7 +3,10 @@ result-view{
 
   message{
     if(!exists(this)){
-      template-macro(Failed_Lookup)
+      template("주문 내역 없음")
+      {
+        speech("현재 대기 중인 주문이 없습니다.")
+      }
     }
     else{
       template-macro(OrderResultDialog)
@@ -16,13 +19,11 @@ result-view{
         content {
           for-each (this){
             as(order){
-              
               layout-macro (OrderListSummary){
                 param(order){
                   expression (order)
                 }
-              }
-                 
+              }   
             }
           }
         }

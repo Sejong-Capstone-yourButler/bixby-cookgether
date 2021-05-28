@@ -1,12 +1,12 @@
 capsule-info {
-  display-name (Coogether)
+  display-name (쿠게더)
   dispatch-name(쿠게더)
   description (쿠게더는 가게 운영에 도움을 제공합니다.)
   developer-name (정홍준, 안태호, 문소희, 최재천)
   // website-url (https://example.com/)
   terms-url (https://example.com/terms-of-use/)
   privacy-policy-url(https://example.com/privacy-policy/)
-  icon-asset (images/icons/bixby_launcher.png)
+  icon-asset (images/icons/logo.png)
   search-keywords{
     keyword(재고)
   }

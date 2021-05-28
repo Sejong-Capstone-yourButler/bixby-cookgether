@@ -5,7 +5,6 @@ layout-macro-def(StockListSummary) {
       min (Required)
     }
   }
- 
   content {
         split-input-cell {
         left{ 
