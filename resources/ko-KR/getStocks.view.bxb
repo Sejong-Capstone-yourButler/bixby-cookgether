@@ -9,7 +9,6 @@ result-view{
       template-macro(StockResultDialog)
     }
   }
-
   render {
     layout {
       section {

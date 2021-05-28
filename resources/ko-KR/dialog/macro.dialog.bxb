@@ -6,7 +6,8 @@ template-macro-def(Failed_Lookup){
 template-macro-def(OrderResultDialog){
   content{
     template("주문내역"){
-      speech("요청하신 주문내역 조회결과입니다.")
+      
+      speech("현재 주문내역 조회결과입니다.")
     }
   }
 }//기능1 주문내역조회에 대한 알림 Dialog
@@ -18,9 +19,16 @@ template-macro-def(StockResultDialog){
   }
 }//기능2 재고 조회에 대한 알림 Dialog
 template-macro-def(AcceptableResultDialog){
+  params{
+    param(accept){
+      type(AcceptResult)
+      min(Required)
+      max(Many)
+    }
+  }
   content{
     template("웨이팅 관리"){
-      speech("요청하신 수용가능 인원과 가능한 요리,최소 재고 조회결과입니다.")
+      speech("수용 가능 인원은 #{value(accept.minimum)}명, 가장 부족한 재고는 #{value(accept.stockname)}(으)로, #{value(accept.stockcount)}만큼 있습니다.")
     }
   }
 }//기능3 웨이팅 관리에 대한 알림 Dialog

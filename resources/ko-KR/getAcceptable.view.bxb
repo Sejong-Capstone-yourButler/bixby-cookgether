@@ -6,7 +6,11 @@ result-view{
       template-macro(Failed_Lookup)
     }
     else{
-      template-macro(AcceptableResultDialog)
+      template-macro(AcceptableResultDialog){
+        param(accept){
+          expression(this)
+        }
+      }
     }
   }
 
