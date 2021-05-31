@@ -1,0 +1,3 @@
+integer (OrderNum) {
+  description (주문번호)
+}
