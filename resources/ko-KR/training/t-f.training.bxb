@@ -33,6 +33,11 @@ train (t-fn3ygteeknna0o6oqbamvj136) {
   plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
   last-modified (1622107046240)
 }
+train (t-fntlbvwrapv93c4wvo8djlrl9) {
+  utterance ("[g:LocationResult] (57)[v:OrderNum]번 주문 배달원 (위치)[v:Location] 알려줘")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622456991641)
+}
 train (t-fp1yyyat7gmbh4q3cbtnev9wl) {
   utterance ("[g:OrderResult] (조리중)[v:Status:Cooking]인 (주문)[v:Order] 알려주세요")
   plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)

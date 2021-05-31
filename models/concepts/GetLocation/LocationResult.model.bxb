@@ -1,0 +1,7 @@
+structure (LocationResult) {
+  description (배달원 위치 결과)
+  property (weburi) {
+    type (WebUri)
+    min (Optional) max (One)
+  }
+}

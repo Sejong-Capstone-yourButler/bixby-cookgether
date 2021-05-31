@@ -1,0 +1,14 @@
+action (GetLocation) {
+  description (배달원 위치 페이지로 넘겨준다.)
+  collect {
+    input (orderNum) {
+      type (OrderNum)
+      min (Required) max (One)
+    }
+    input (location) {
+      type (Location)
+      min (Optional)
+    }
+  }
+  output (LocationResult)
+}

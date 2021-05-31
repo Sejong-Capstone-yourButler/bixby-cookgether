@@ -22,8 +22,11 @@ endpoints {
       local-endpoint (editStocks.js)
     }
     action-endpoint (GetSettle) {
-      accepted-inputs ()
       local-endpoint (getSettle.js)
+    }
+    action-endpoint (GetLocation) {
+      accepted-inputs (orderNum)
+      local-endpoint (getLocation.js)
     }
   }
 } 
