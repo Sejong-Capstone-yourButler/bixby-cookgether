@@ -1,3 +1,13 @@
+train (t-lg9sga7buwwwx5ymgyj3kewux) {
+  utterance ("[g:OrderResult] (주문내역)[v:Order] 조회 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455535530)
+}
+train (t-li2v5nxpgh8fyl67dma3g9w1y) {
+  utterance ("[g:OrderResult] (주문 목록)[v:Order] 조회 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455575416)
+}
 train (t-lnww3hn58oip1gkfpi9fd9hya) {
   utterance ("[g:EditStockResult] (등심 고기)[v:StockName] (3)[v:Count]개 (빼)[v:EditKeyword:제거]줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)

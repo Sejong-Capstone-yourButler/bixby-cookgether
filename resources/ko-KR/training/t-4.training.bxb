@@ -13,10 +13,20 @@ train (t-43eiqmpojuxbreel1ccg5wdjs) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
   last-modified (1620825970735)
 }
+train (t-46uiixshsdckzfqi7oyn9wybf) {
+  utterance ("[g:OrderResult] (주문목록)[v:Order] 알려주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455236791)
+}
 train (t-49vg6nlugrq82ucjva8chum90) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 얼마나 있는지 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1620908187090)
+}
+train (t-4adrtt3wbljkm3he7fz8dzipj) {
+  utterance ("[g:OrderResult] (주문 내용)[v:Order] 조회 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455589222)
 }
 train (t-4c9kx0gp71gb2a6o7sfm6ojd9) {
   utterance ("[g:OrderResult] (주문 목록)[v:Order] 알려줘")

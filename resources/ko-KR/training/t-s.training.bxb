@@ -1,3 +1,8 @@
+train (t-s0jt1hd1lt21sd5mi5ngsb6xp) {
+  utterance ("[g:OrderResult] (주문)[v:Order] 조회 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455411418)
+}
 train (t-sikzwweuth3uzl6envpnrn9jm) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (2)[v:Count]개 (늘려)[v:EditKeyword:추가]줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
@@ -7,6 +12,11 @@ train (t-sq3qwe8z5nxzi8u5prtqrihad) {
   utterance ("[g:StockResult] (생선까스)[v:StockName] 얼마나 남았어?")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1621245867586)
+}
+train (t-stftztdp5ltbluofxt7jyqy6d) {
+  utterance ("[g:OrderResult] (주문목록)[v:Order] 조회 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455471523)
 }
 train (t-szfpjijmanluacxtn38y0fzlw) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (2)[v:Count]개 (추가)[v:EditKeyword:추가]해줘")

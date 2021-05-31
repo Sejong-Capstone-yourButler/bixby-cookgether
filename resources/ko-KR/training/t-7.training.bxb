@@ -3,6 +3,11 @@ train (t-70t4r78mluskv1yb20fkt4sl8) {
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621243093222)
 }
+train (t-7l3ma9wrqjqa6giwpa1da38bb) {
+  utterance ("[g:OrderResult] (주문)[v:Order] 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455355316)
+}
 train (t-7rye31uvkygdywqv9gvdnwk4y) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 얼만큼 남았는지 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)

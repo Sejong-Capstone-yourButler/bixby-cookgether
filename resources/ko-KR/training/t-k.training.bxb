@@ -13,6 +13,11 @@ train (t-kgivqxjd13abwb3trrtlqtuv1) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
   last-modified (1621239597528)
 }
+train (t-kiozhuvcqmtpx6pfw3vml4o3g) {
+  utterance ("[g:OrderResult] (주문내용)[v:Order] 조회 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455459321)
+}
 train (t-kq09y19effstuhmkyfovuvvv9) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (2)[v:Count]개 (더해)[v:EditKeyword:추가]줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)

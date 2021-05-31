@@ -28,3 +28,8 @@ train (t-zs98p5fvw9wfjux7427ddp5e2) {
   plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
   last-modified (1622110119950)
 }
+train (t-zzgvl646xpy6h8whofe9p0915) {
+  utterance ("[g:OrderResult] (주문 사항)[v:Order] 조회 실행해줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455603306)
+}

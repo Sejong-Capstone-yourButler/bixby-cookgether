@@ -1,3 +1,8 @@
+train (t-j0b9hw7a3ozlg8hpetrkgj2ev) {
+  utterance ("[g:OrderResult] (주문목록)[v:Order] 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455379722)
+}
 train (t-j9u81pct9s5hfo5ev1k3euzak) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (3)[v:Count]개 (삭제)[v:EditKeyword:제거]")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
@@ -42,4 +47,9 @@ train (t-jw9ek6vtkzz82pycax58dc8ru) {
   utterance ("[g:OrderResult] (Cooking)[v:Status:Cooking] 상태 (주문)[v:Order] 알려주세요")
   plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
   last-modified (1622108146976)
+}
+train (t-jzz2khviduiqmou07f5ucohcp) {
+  utterance ("[g:OrderResult] (주문내용)[v:Order] 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455367164)
 }

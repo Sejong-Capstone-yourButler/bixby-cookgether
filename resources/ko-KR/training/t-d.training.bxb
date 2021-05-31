@@ -16,7 +16,7 @@ train (t-dmefb1d2xr209a3qvurnt4kwl) {
 train (t-dnwwdqx5xz2j8m5g7y47bn77n) {
   utterance ("[g:AcceptResult] (최대 수용)[v:WaitingKeyword] 가능 인원 알려주세요")
   plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADIdk5NTC0qCUotLc0oYVHAock8tgahLTMpJZVDFoSo8MbMkMy/dO7WyPL8ohYGJgRGIGYAkIwMIMEEwAA==)
-  last-modified (1620826388256)
+  last-modified (1622204353754)
 }
 train (t-doos23u6bfln88xgmqyeq0226) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (100)[v:Count]개로 (바꿔)[v:EditKeyword:변경]")

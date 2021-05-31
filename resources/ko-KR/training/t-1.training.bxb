@@ -48,11 +48,6 @@ train (t-1iyh7cxre1rw9lngj6litp7ox) {
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1621246118471)
 }
-train (t-1k4wd38glixqsdrx0yfs4tfd5) {
-  utterance ("[g:OrderResult] 현재 (주문)[v:Order]이 어떻게 돼?")
-  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
-  last-modified (1620823146964)
-}
 train (t-1k8cqrjol7i7xiczjb9n7sg50) {
   utterance ("[g:EditStockResult] (돈까스)[v:StockName] (3)[v:Count]개 (빼)[v:EditKeyword:제거]주세요")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
