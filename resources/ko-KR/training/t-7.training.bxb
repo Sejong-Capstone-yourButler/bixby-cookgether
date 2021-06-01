@@ -3,10 +3,135 @@ train (t-70t4r78mluskv1yb20fkt4sl8) {
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621243093222)
 }
+train (t-70xzl4mwzxzrb6ln4j13z0xhd) {
+  utterance ("[g:StockResult] (치킨가스)[v:StockName] 얼만큼 남았는지 알려주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1622524388573)
+}
+train (t-71ihmbw1fwdln0nhzu18n1n5n) {
+  utterance ("[g:OrderResult] (모든)[v:Status:All] (주문)[v:Order] 말해주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622521189545)
+}
+train (t-75f412rzrr1fuhozkqb2f3fvg) {
+  utterance ("[g:OrderResult] (주문 내역)[v:Order] 보여주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622473350780)
+}
+train (t-75sv45rpgh7uhz44i5iei0hqn) {
+  utterance ("[g:your_butler.cookgether.LocationResult] (23)[v:your_butler.cookgether.OrderNum:23]번 주문 (배달원)[v:your_butler.cookgether.Location] 어딘지 알려주세요")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622550635399)
+}
+train (t-77x3xveieguogkendr3qbvm3j) {
+  utterance ("[g:LocationResult] (3)[v:OrderNum]번 주문 배달원 (위치)[v:Location] 보여줘")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622548408767)
+}
+train (t-7cuegv3li4k3mjywssfljrl5s) {
+  utterance ("[g:OrderResult] (모든)[v:Status:All] (주문 내역)[v:Order] 보여줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622521083962)
+}
+train (t-7d5akkhtsieq412nfqf21h88k) {
+  utterance ("[g:OrderResult] (모든)[v:Status:All] (주문사항)[v:Order] 알려줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622476966930)
+}
+train (t-7f12743i0c1cgyrp24rjgxfiu) {
+  utterance ("[g:OrderResult] (주문 내용)[v:Order] 보여주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622473367084)
+}
+train (t-7ijnvl5lgbk9p2twmvkrlzo8j) {
+  utterance ("[g:OrderResult] 현재 (주문사항)[v:Order] 말해주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622473915307)
+}
+train (t-7jyq2txgt0spmbqm03kgpu9c8) {
+  utterance ("[g:OrderResult] 현재 (주문)[v:Order]이 어떻게 돼?")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622472503474)
+}
+train (t-7krli0neiy7a0up9ml345xjyi) {
+  utterance ("[g:your_butler.cookgether.EditStockResult] (치킨가스)[v:your_butler.cookgether.StockName] (3)[v:your_butler.cookgether.Count:3]개 (제거)[v:your_butler.cookgether.EditKeyword:제거]해줘")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1622532416516)
+}
+train (t-7l3ma9wrqjqa6giwpa1da38bb) {
+  utterance ("[g:OrderResult] (주문)[v:Order] 알려줘")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622455355316)
+}
+train (t-7lo8om4irdjwwllf1w3r65h1w) {
+  utterance ("[g:OrderResult] (미수락)[v:Status:Pending] (주문)[v:Order] 말해줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622475172256)
+}
+train (t-7mfigu0udmhjrjy3s2vgu777c) {
+  utterance ("[g:EditStockResult] (냉동 가라아게)[v:StockName] (1)[v:Count]개 (더해)[v:EditKeyword:추가]주세요")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1622525259420)
+}
+train (t-7n3ircmsqw91yvr9m44by84sl) {
+  utterance ("[g:LocationResult] (57)[v:OrderNum]번 주문 (배달원)[v:Location] 어딘지 알려주세요")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622550340174)
+}
+train (t-7nf6ptsh5ivzunn0zyew6l4bd) {
+  utterance ("[g:SettleResult] 오늘 (매출액)[v:Settle] 알려줘")
+  plan (Y2BmUK7MLy2KTyotyUkt0kvOz89OTy3JADKDU0uAQkGpxaU5JQwKOBS5p5ZA1DHI4jWGgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1622551070769)
+}
+train (t-7no12frmebsadq86tan22zbww) {
+  utterance ("[g:EditStockResult] (치킨가스)[v:StockName] (1)[v:Count]개 (추가)[v:EditKeyword:추가]해주세요")
+  plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
+  last-modified (1622525435067)
+}
+train (t-7oduo696k54bwkavwl5433hhs) {
+  utterance ("[g:OrderResult] (모든)[v:Status:All] (주문 목록)[v:Order] 말해줘")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622521624974)
+}
+train (t-7q1d7lj08xr7u0fzgt2ksbfju) {
+  utterance ("[g:LocationResult] (73)[v:OrderNum]번 주문 (배달원)[v:Location] 어디쯤 왔어?")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622549763146)
+}
+train (t-7qtfjtnuis8346a26p5spibfp) {
+  utterance ("[g:LocationResult] (3)[v:OrderNum]번 주문 배다런 (위치)[v:Location] 어딘지 알려줘")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622552115766)
+}
 train (t-7rye31uvkygdywqv9gvdnwk4y) {
   utterance ("[g:StockResult] (돈까스)[v:StockName] 얼만큼 남았는지 알려주세요")
   plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
   last-modified (1620908359301)
+}
+train (t-7s3max7ili2hzavxoak80hb56) {
+  utterance ("[g:OrderResult] (수락된)[v:Status:Cooking] (주문)[v:Order] 말해주세요")
+  plan (Y2BhUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCoMsDtngksSS0mIGZgZGBiYgyQCkQRACQHywKAA=)
+  last-modified (1622476558527)
+}
+train (t-7sub6lercd5fm7iyiwon9s88z) {
+  utterance ("[g:LocationResult] (23)[v:OrderNum]번 주문 (배달원)[v:Location] 어딘지 보여줘")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622550168686)
+}
+train (t-7t6zwyp6ujcbne92jz80ewk80) {
+  utterance ("[g:your_butler.cookgether.LocationResult] (23)[v:your_butler.cookgether.OrderNum:23]번 주문 (배달원)[v:your_butler.cookgether.Location] 어딘지 보여주세요")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622550646182)
+}
+train (t-7tfctev4d8nwuyno2a269jyqb) {
+  utterance ("[g:OrderResult] 현재 (주문 내용)[v:Order] 알려주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADL9i1JSi4JSi0tzShgUcKhxTy0BKytmkMFnCgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1622472751347)
+}
+train (t-7uhhn18bvfbe0jpmfw1jzv0z7) {
+  utterance ("[g:LocationResult] (3)[v:OrderNum]번 주문 (배달원)[v:Location] 어디쯤 있어요?")
+  plan (Y2BhUK3MLy2KTyotyUkt0kvOz89OTy3JADJ98pMTSzLz84JSi0tzShiUcChzTy2BqWSQJ2AUTgX+RSmpRX6luQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1622548418199)
 }
 train (t-7uj2v7gmwyky3n7582rvcin09) {
   utterance ("[g:SettleResult] (정산)[v:Settle]합시다")
@@ -22,4 +147,9 @@ train (t-7x98fm3w10nkgjw21j24ln3j5) {
   utterance ("[g:EditStockResult] (냉동가라아게)[v:StockName] (3)[v:Count]개 (제거)[v:EditKeyword:제거]해줘")
   plan (Y2BlUKvMLy2KTyotyUkt0kvOz89OTy3JADJdUzJLgkvyk7ODUotLc0oYFAmpK2aQwaHEOb80r4RBCY8B3qmV5flFKQwKONSALfBLzE1lYGFgZGBiYAbSDEAWBMIASAwqBwA=)
   last-modified (1621244996030)
+}
+train (t-7yfaf4idvn9l6u2m54qu0k070) {
+  utterance ("[g:StockResult] (치킨가스)[v:StockName] 재고 알려주세요")
+  plan (Y2BmUKrMLy2KTyotyUkt0kvOz89OTy3JADKDS/KTs4NSi0tzShgUcKhxTy0BKyvGqQIs7ZeYm8rAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1622522808197)
 }
