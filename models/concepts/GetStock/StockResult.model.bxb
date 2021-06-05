@@ -8,4 +8,8 @@ structure (StockResult) {
     type (Count)
     min (Required)
   }
+  property (list) {
+    type (List)
+    min (Required)
+  }
 }
