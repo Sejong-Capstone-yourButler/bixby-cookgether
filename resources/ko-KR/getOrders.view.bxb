@@ -8,9 +8,9 @@ result-view{
         speech("현재 대기 중인 주문이 없습니다.")
       }
     }
-    else{
+   else{
       template-macro(OrderResultDialog)
-    }
+    } 
   }
 
   render {

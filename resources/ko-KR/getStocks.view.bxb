@@ -5,10 +5,25 @@ result-view{
     if(!exists(this)){
       template-macro(Failed_Lookup)
     }
-    else{
+    
+    else-if(this.list==0){
+      template-macro(OneStockResultDialog)
+      {
+        param(stock)
+        {
+          expression(this.stockname)
+        }
+        param(count)
+        {
+          expression(this.count)
+        }
+      }
+    }
+    else-if(this.list!=0){
       template-macro(StockResultDialog)
     }
   }
+
   render {
     layout {
       section {
