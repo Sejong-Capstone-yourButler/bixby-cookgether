@@ -34,11 +34,13 @@ module.exports.function = function getStocks (stockname) {
       {
         stock.stockname = aStock.name;
         stock.count = aStock.count;
+        stock.list = 1;
       }
       else if (aStock.name == stockname)
       {
         stock.stockname = aStock.name;
         stock.count = aStock.count;
+        stock.list = 0;
       }
       resultArray.push(stock);
     })
