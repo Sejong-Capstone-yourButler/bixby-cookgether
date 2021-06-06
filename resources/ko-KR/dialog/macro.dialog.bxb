@@ -17,7 +17,25 @@ template-macro-def(StockResultDialog){
       speech("요청하신 재고 조회결과입니다.")
     }
   }
-}//기능2 재고 조회에 대한 알림 Dialog
+}
+template-macro-def(OneStockResultDialog){
+  params{
+    param(stock){
+      type(StockName)
+      min(Required)
+    }
+    param(count){
+      type(Count)
+      min(Required)
+    }
+  }
+  content{
+    template("재고"){
+      speech("#{value(stock)} 재고는 #{value(count)}만큼 있습니다.")
+    }
+  }
+  //기능2 재고 조회에 대한 알림 Dialog
+}
 template-macro-def(AcceptableResultDialog){
   params{
     param(accept){
